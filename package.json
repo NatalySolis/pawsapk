@@ -1,0 +1,13 @@
+{
+  "name": "pawsapp-enterprise",
+  "version": "1.0.0",
+  "description": "Plataforma multinegocio de gestión veterinaria y reservas",
+  "scripts": {
+    "dev:backend": "cd backend && node index.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
